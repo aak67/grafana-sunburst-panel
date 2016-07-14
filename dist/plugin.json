@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "SunBurst",
-  "id": "grafana-sunburst-panel",
+  "id": "sraoss-sunburst-panel",
 
   "info": {
     "description": "SunBurst panel for grafana",
