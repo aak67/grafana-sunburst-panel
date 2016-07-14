@@ -14,14 +14,11 @@ Tooltip of a node shows information about same-leveled nodes and its child nodes
 
 ![Tooltip (node)](https://raw.githubusercontent.com/anzai/grafana-sunburst-panel/master/src/img/tooltip_node.png)
 
-<dl>
-<dt>sum</dt>
-<dd>The value of a node. If the node has children, the value of the node means sum of the values of its children.</dd>
-<dt>average</dt>
-<dd>If the node has children, the value of the node means average of the values of its children.</dd>
-<dt>rate</dt>
-<dd>The rate against the value of parent node.</dd>
-</dl>
+|         | Description |
+|:--------|:------------|
+| sum     | The value of a node. If the node has children, the value of the node means sum of the values of its children. |
+| average | If the node has children, the value of the node means average of the values of its children. |
+| rate    | The rate against the value of parent node. |
 
 ### Drill down
 
@@ -42,14 +39,11 @@ You can use $1, $2, $3 ... to add values to the link.
 
 You can specify fields' types of a node.
 
-<dl>
-<dt>Number</dt>
-<dd>Add unit (%, $, bits/sec, ...)</dd>
-<dt>String</dt>
-<dd>Do nothing and just display.</dd>
-<dt>Date</dt>
-<dd>Convert numbers as unix timestamp to date text in specified format.</dd>
-</dl>
+|        | Description |
+|:-------|:------------|
+| Number | Add unit (%, $, bits/sec, ...) |
+| String | Do nothing and just display. |
+| Date   | Convert numbers as unix timestamp to date text in specified format. |
 
 Ex.)<br>
 ![unit](https://raw.githubusercontent.com/anzai/grafana-sunburst-panel/master/src/img/unit.png)
