@@ -41,7 +41,7 @@ export class SunburstCtrl extends MetricsPanelCtrl {
   }
 
   onInitEditMode() {
-    this.addEditorTab('Options', 'public/plugins/grafana-sunburst-panel/editor.html', 2);
+    this.addEditorTab('Options', 'public/plugins/sraoss-sunburst-panel/editor.html', 2);
   }
 
   onDataError() {
