@@ -157,7 +157,7 @@ export default function link(scope, elem, attrs, ctrl) {
       var rtn = {
         tableRows:   tableRows,
         tooltipHref: tooltipHref,
-        position:    { x: position[0], y: position[1] }
+        position:    { x: position[0]+15, y: position[1]+15 }
       };
       return rtn;
     }
